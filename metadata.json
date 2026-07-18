@@ -1,0 +1,6 @@
+{
+  "name": "Portafolio Dinámico con CMS Sanity",
+  "description": "Portafolio dinámico oficial de Trino, diseñado en estricto apego a su identidad visual: colores Gris Medianoche, Lima Radiante, Lila Nube y sus mascotas interactivas (Música, Cine, Teatro).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

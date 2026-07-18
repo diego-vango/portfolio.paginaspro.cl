@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom colors from Trino Brand Guidelines */
+  --color-trino-midnight: #1B1D21;
+  --color-trino-lilac: #DCB8FE;
+  --color-trino-lime: #C2FF01;
+  --color-trino-blue: #0044FD;
+  --color-trino-orange: #FE4502;
+  --color-trino-celeste: #00BBFC;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1B1D21;
+}
+::-webkit-scrollbar-thumb {
+  background: #C2FF01;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #DCB8FE;
+}
+
